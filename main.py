@@ -54,7 +54,7 @@ if "logged_in" not in stl.session_state:
     login()
 
 if "logged_in" in stl.session_state:
-    df = pd.read_excel("dataset/RBRTEd.xls", sheet_name="Data 1", skiprows=2801,
+    df = pd.read_excel("RBRTEd.xls", sheet_name="Data 1", skiprows=2801,
                        names=['Date', 'Brent_Price'])
 
     header = stl.container()

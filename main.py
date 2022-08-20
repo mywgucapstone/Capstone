@@ -64,7 +64,7 @@ if "logged_in" in stl.session_state:
     df["Year"] = df["Date"].dt.year
 
     with header:
-        stl.title("Zachary Elmalak - C964 Capstone")
+        stl.title("C964 Capstone")
 
     with descriptive_method:
         stl.title("Descriptive Methods")
